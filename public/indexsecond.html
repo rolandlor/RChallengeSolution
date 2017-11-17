@@ -30,21 +30,17 @@
                   
         </div>
         </div>
-        <script>
-            
-           var ctx = document.getElementById('myChart').getContext('2d');
-           var chart = new Chart(ctx, {
-               
+        <script>            
+           var chtx = document.getElementById('myChart').getContext('2d');
+           var chart = new Chart(chtx, {               
                type: 'line',
-           
-               
                data: {
                    labels: ["January", "February", "March", "April", "May", "June", "July"],
                    datasets: [{
-                       label: "My First dataset",
-                       backgroundColor: 'rgb(255, 99, 132)',
-                       borderColor: 'rgb(255, 99, 132)',
-                       data: [0, 10, 5, 2, 20, 30, 45],
+                       label: "Dataset",
+                       backgroundColor: 'rgb(110, 140, 210)',
+                       borderColor: 'rgb(110, 120, 220)',
+                       data: [0, 15, 35, 25, 40, 35, 45],
                    }]
                },
            
